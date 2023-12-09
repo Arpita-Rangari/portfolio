@@ -1,0 +1,46 @@
+.skills{
+    width:100%;
+    padding : 6rem 1rem;
+    background-color: black;
+
+}
+.skill-container{
+    max-width: 1140px;
+    margin : auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px;}
+
+    @media screen and (max-width : 740px) {
+        .skill-container{
+            max-width: 90%;
+            margin:auto;
+            grid-template-columns: 1fr;
+            
+        }
+    }
+
+    .skill{
+        border: 1px solid white;
+        color:white;
+        text-align: center;
+        padding : 1rem;
+    }
+
+    .skill:hover{
+        background-color: #463f3f;
+    }
+    .card h3{
+        font: 1.4rem;
+        padding :1rem;
+    }
+    .card p{
+       padding : 10px 0;
+    }
+
+    .bar{
+        border-bottom : 1px solid #eee;
+        width : 50%;
+        margin : 1.5rem auto;
+        display: block;;
+    }
